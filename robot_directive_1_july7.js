@@ -127,7 +127,7 @@ function displayInstructions() {
 
   // Add HTML link only once
   if (!link) {
-    link = createA("https://example.com", "Click here to continue", "_blank");
+    link = createA("https://sbuckius.github.io/graph_fabric_woven_pixel/", "Click here to continue", "_blank");
     link.position(width / 2 - 80, finalMessageY + gap);
     link.style("font-size", "16px");
     link.style("color", "#0066cc");
